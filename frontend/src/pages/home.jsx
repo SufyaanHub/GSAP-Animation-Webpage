@@ -8,7 +8,7 @@ const Home = () => {
             <div className="h-screen w-screen fixed">
 <Video />
             </div>
-            <div className="h-screen w-screen absolute">
+            <div className="h-screen w-screen relative">
      <HomeHeroText />
      <HomeBottomText />
 

@@ -30,8 +30,8 @@ const Agence = () => {
     gsap.to(imageDivRef.current, {
       scrollTrigger: {
         trigger: imageDivRef.current,
-      start: 'top 10%',
-        end: 'top -135%',
+      start: ' top 5%',
+        end: 'top -130%',
         pin: true,
         pinSpacing: true,
         pinReparent: true,
@@ -52,7 +52,7 @@ const Agence = () => {
     <div>
       <div
         ref={imageDivRef}
-        className="absolute overflow-hidden lg:h-[25vw] h-[10vw] lg:rounded-3xl rounded-xl lg:w-[15vw] w-[20vw] lg:top-[10vh] -top-90 lg:left-[20vw] left-[34vw]"
+        className="absolute overflow-hidden lg:h-[25vw] h-[10vw] lg:rounded-3xl rounded-xl lg:w-[15vw] w-[20vw] lg:top-[1vw] -top-90 lg:left-[20vw] left-[34vw]"
       >
         <img
           ref={imageRef}
